@@ -1,0 +1,90 @@
+.exam
+{
+    width: 80%;
+    margin: 15%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, #0000002b 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+}
+.col-3
+{
+    padding: 0;
+}
+.nav
+{
+    margin: 0;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px 0px 0px 10px;
+    min-height: 350px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.nav .nav-link
+{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: rgba(62, 62, 62, 0.89);
+    font-size: 17px;
+    text-transform: none;
+    font-weight: 400;
+    background-color: #ecf0f3;
+
+
+}
+.nav .nav-link i
+{
+    color: #fcd53f
+}
+.nav .nav-link.active
+{
+    background-color: #0d6efd;
+    color: white;
+}
+.nav .nav-link.active i
+{
+    color: white;
+}
+#tab-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%; 
+    padding: 10px 20px;
+    
+}
+form
+{
+    margin:  0;
+}
+.result
+{
+    margin-top: 20px;
+    background-color: rgb(228, 255, 228);
+    padding: 15px;
+    border: solid 1px green;
+    border-radius: 5px;
+}
+button
+{   display: block;
+    margin-top: 20px;
+    background-color: #4b70e2;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+#bai2 button
+{
+    display: inline;
+}
+input, select
+{
+    width: 300px;
+    margin: 10px 5px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
